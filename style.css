@@ -26,6 +26,7 @@ font-size: clamp(4rem, 3.8rem + 1vw, 5rem);
 }
 
 .button{
+  padding-left: 10%;
 align-self: center;
 justify-self: center;
 align-items: center;
