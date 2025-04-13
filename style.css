@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+body{
+  font-family: "Pinyon Script", cursive;
+  background-color: #470509;
+  align-items: center;
+  justify-items: center;
+  padding: 10%;
+}
+
+.image1 img{
+  width: 100%;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.HBD{
+  text-align: center;
+  padding: 10%;
+  color: rgba(229, 230, 224, 1);
+  font-size: 4rem;
+font-size: clamp(4rem, 3.8rem + 1vw, 5rem);
+}
+
+.button{
+align-self: center;
+justify-self: center;
+}
+
+a{
+  font-family: "Pinyon Script", cursive;
+  font-size: 2rem;
+font-size: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
+  color: #470509;
+  background-color: rgba(229, 230, 224, 1);
+  padding: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Letter*/
+
+.image2{
+  width: 50%;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+p{
+  color: rgba(229, 230, 224, 1);
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+}
